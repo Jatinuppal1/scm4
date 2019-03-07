@@ -4,8 +4,13 @@ class sample
 {
 	int a,b;
 	public:
+	sample()
+	{
+		cout<<"___Default Constructor___";
+	}
 	sample(int a, int b)
 	{
+		cout<<"___Default Constructor___";
 		(*this).a=a;
 		(*this).b=b;
 	}
