@@ -17,6 +17,7 @@ class sample
 };
 int main()
 { 
+	cout<<"This is a trial program.";
 	sample s1(10,20);
 	s1.print();
 	return 0;
